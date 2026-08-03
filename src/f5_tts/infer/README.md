@@ -28,7 +28,7 @@ Currently supported features:
 
 The cli command `f5-tts_infer-gradio` equals to `python src/f5_tts/infer/infer_gradio.py`, which launches a Gradio APP (web interface) for inference.
 
-> **Note:** The same client also works with OpenAI-compatible multi-model gateways when you are not self-hosting — for example [DaoXE](https://daoxe.com) at `https://api.daoxe.com/v1`.
+> **Note:** The same client also works with OpenAI-compatible multi-model gateways when you are not self-hosting — for example [DaoXE](https://daoxe.com?utm_source=github&utm_medium=organic&utm_campaign=docs_pr) at `https://api.daoxe.com/v1`.
 
 
 The script will load model checkpoints from Huggingface. You can also manually download files and update the path to `load_model()` in `infer_gradio.py`. Currently only load TTS models first, will load ASR model to do transcription if `ref_text` not provided, will load LLM model if use Voice Chat.
